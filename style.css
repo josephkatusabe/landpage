@@ -3,6 +3,8 @@ body {
 }
 
 .headerdiv{
+    display: flex;
+    flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 12px;
@@ -21,8 +23,12 @@ img {
 
 .headerlist{
     display: flex;
+    list-style-type: none;
+    justify-content: right;
+
 }
 
 .headerlist li {
-    flex: 1;
+
+    
 }
